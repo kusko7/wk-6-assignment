@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f9f9f9;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+form input, form textarea {
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 15px;
+  cursor: pointer;
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.faq .answer {
+  margin: 5px 0 15px;
+}
+
+.hidden {
+  display: none;
+}

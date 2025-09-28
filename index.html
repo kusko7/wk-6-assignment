@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive Feedback Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to Our Feedback Page</h1>
+  </header>
+
+  <main>
+    <!-- Feedback Form -->
+    <section id="feedback-section">
+      <h2>Leave Your Feedback</h2>
+      <form id="feedback-form">
+        <label>Name: <input type="text" id="name" /></label><br>
+        <label>Email: <input type="text" id="email" /></label><br>
+        <label>Message: <textarea id="message"></textarea></label><br>
+        <button type="submit">Submit</button>
+      </form>
+      <p id="form-message"></p>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq-section">
+      <h2>FAQs</h2>
+      <div class="faq">
+        <p class="question">What is this site about?</p>
+        <p class="answer hidden">This site collects user feedback and answers FAQs.</p>
+      </div>
+      <div class="faq">
+        <p class="question">How is my data used?</p>
+        <p class="answer hidden">Your data is used to improve our services.</p>
+      </div>
+    </section>
+
+    <!-- Background Color Changer -->
+    <section id="color-section">
+      <h2>Customize Background</h2>
+      <button id="color-button">Change Background Color</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
